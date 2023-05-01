@@ -1,0 +1,9 @@
+.file-input-container{
+    width: 100%;
+    min-height: 100%;
+    border: 4px dashed rgb(93, 93, 204);
+    cursor: pointer;
+    &-fileInput{
+        display: none;
+    }
+}
