@@ -1,8 +1,14 @@
+@import "./assets/scss/variables.scss";
+
 .mainpage-container{
     min-height: 100vh;
     min-width: 100%;
     &-fileinput{
         height: 100px;
         width: 100px;
+        &-button{
+            @extend %button-styling;
+            height: 35px;
+        }
     }
 }
